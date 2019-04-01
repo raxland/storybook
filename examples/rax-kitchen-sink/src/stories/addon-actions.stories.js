@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 import Button from 'rax-button';
 import Text from 'rax-text';
 
-storiesOf('Addon|addon-actions', module)
+storiesOf('Addon|Actions', module)
   .add('with text', () => <Button onclick={action('clicked')}>Hello Button</Button>)
   .add('with some emoji', () => (
     <Button onclick={action('clicked')}>

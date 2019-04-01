@@ -4,7 +4,7 @@ import { linkTo } from '@storybook/addon-links';
 import Picker from 'rax-picker';
 import Welcome from '../components/Welcome';
 
-storiesOf('Addon|addon-links', module)
+storiesOf('Addon|Links', module)
   .add('Link to notes', () => {
     return (
       <Picker onValueChange={linkTo('Addon|addon-notes', value => value)}>

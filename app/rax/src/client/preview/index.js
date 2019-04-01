@@ -1,5 +1,4 @@
-import { start } from '@storybook/core/client';
-
+import start from './rax';
 import './globals';
 import render from './render';
 

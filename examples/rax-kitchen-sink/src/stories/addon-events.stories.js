@@ -30,6 +30,6 @@ const decorator = withEvents({
   ],
 });
 
-storiesOf('Addon|addon-events', module)
+storiesOf('Addon|Events', module)
   .addDecorator(decorator)
   .add('Events Logger', () => <Logger emitter={emitter} />);

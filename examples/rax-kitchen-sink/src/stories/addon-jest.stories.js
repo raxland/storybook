@@ -5,7 +5,7 @@ import App from '../components/App';
 import Welcome from '../components/Welcome';
 import results from '../../jest-test-results.json';
 
-storiesOf('Addon|addon-jest', module)
+storiesOf('Addon|Jest', module)
   .addDecorator(withTests({ results }))
   .add('App', () => <App />, { jest: ['components/App/App.test.js'] })
   .add('Welcome', () => <Welcome />, { jest: ['components/Welcome/Welcome.test.js'] });

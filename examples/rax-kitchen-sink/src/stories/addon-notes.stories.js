@@ -4,7 +4,7 @@ import { withNotes } from '@storybook/addon-notes';
 import Text from 'rax-text';
 import markdown from './note.md';
 
-storiesOf('Addon|addon-notes', module)
+storiesOf('Addon|Notes', module)
   .addDecorator(withNotes)
   .add('basic', () => <Text>RAX TEXT NODE</Text>, { notes: 'super awesome note' })
   .add('with emojies', () => <Text style={{ fontSize: 20, color: 'blue' }}>Styled text</Text>, { notes: ' this is a note with emojies 🚀🚀🚀🚀🚀' })

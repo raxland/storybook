@@ -35,8 +35,46 @@ Object {
       "tagName": "DIV",
     },
     Object {
+      "attributes": Object {
+        "role": "button",
+      },
       "children": Array [
-        "To get started, edit src/components/App.js and save to reload.",
+        Object {
+          "children": Array [
+            "Back to default",
+          ],
+          "style": Object {
+            "alignContent": "flex-start",
+            "border": "0 solid black",
+            "boxSizing": "border-box",
+            "display": "block",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "fontSize": 32,
+            "position": "relative",
+            "whiteSpace": "pre-wrap",
+          },
+          "tagName": "SPAN",
+        },
+      ],
+      "eventListeners": Object {
+        "click": [Function],
+      },
+      "style": Object {
+        "alignContent": "flex-start",
+        "border": "0 solid black",
+        "boxSizing": "border-box",
+        "cursor": "pointer",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "position": "relative",
+      },
+      "tagName": "DIV",
+    },
+    Object {
+      "children": Array [
+        " Yay! thank you ",
       ],
       "style": Object {
         "alignContent": "flex-start",

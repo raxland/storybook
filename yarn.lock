@@ -11868,12 +11868,12 @@ graphql-request@^1.5.0:
   dependencies:
     cross-fetch "2.2.2"
 
-graphql@^0.13.2, graphql@^14.1.1:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
-  integrity sha512-QZ5BL8ZO/B20VA8APauGBg3GyEgZ19eduvpLWoq5x7gMmWnHoy8rlQWPLmWgFvo1yNgjSEFMesmS4R6pPr7xog==
+graphql@^14.1.1:
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.1.1.tgz#d5d77df4b19ef41538d7215d1e7a28834619fac0"
+  integrity sha512-C5zDzLqvfPAgTtP8AUPIt9keDabrdRAqSWjj2OPRKrKxI9Fb65I36s1uCs1UUBFnSWTdO7hyHi7z1ZbwKMKF6Q==
   dependencies:
-    iterall "^1.2.1"
+    iterall "^1.2.2"
 
 grizzly@^3.0.3:
   version "3.0.4"
@@ -13615,7 +13615,7 @@ istextorbinary@2.1.0:
     editions "^1.1.1"
     textextensions "1 || 2"
 
-iterall@^1.2.1:
+iterall@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
   integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
@@ -19903,8 +19903,8 @@ rax-test-renderer@^0.6.5:
 
 rax-text@^0.6.5:
   version "0.6.5"
-  resolved "http://registry.npm.alibaba-inc.com/rax-text/download/rax-text-0.6.5.tgz#021772f60a2acf38a42f3d48061655d9a21eb044"
-  integrity sha1-Ahdy9goqzzikLz1IBhZV2aIesEQ=
+  resolved "https://registry.yarnpkg.com/rax-text/-/rax-text-0.6.5.tgz#021772f60a2acf38a42f3d48061655d9a21eb044"
+  integrity sha512-5UtVusKu4DkIm/bgOCMjnl7nmURS5uzRIghw10idEm40K4ANdPf5VXTYmfus2q2jpfn8zVAO/t9w+acAvzdYbw==
   dependencies:
     universal-env "^0.6.5"
 
@@ -19918,8 +19918,8 @@ rax-touchable@^0.6.5:
 
 rax-view@^0.6.5:
   version "0.6.5"
-  resolved "http://registry.npm.alibaba-inc.com/rax-view/download/rax-view-0.6.5.tgz#495c18751dc5d514bf2b83dbb738e36b03f74079"
-  integrity sha1-SVwYdR3F1RS/K4PbtzjjawP3QHk=
+  resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-0.6.5.tgz#495c18751dc5d514bf2b83dbb738e36b03f74079"
+  integrity sha512-2MUVDcOPyaKGg4SMUYcVCKt3nHHjfpBoqN5sd2p5tJvVGngrYSuhPMr/UYldKSqq4YJN9T41Zix5N7/lFSiDGg==
   dependencies:
     universal-env "^0.6.5"
 

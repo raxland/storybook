@@ -9,6 +9,7 @@
   background-color: #222;
   height: 160;
   padding: 40;
+  margin-bottom: 10;
 }
 
 .appBanner, .appIntro {
@@ -22,6 +23,17 @@
 
 .appIntro {
   margin-top: 40;
-  font-size: 20;
+  font-size: 25;
   line-height: 30;
+}
+
+.button {
+  border: 1 solid #000;
+  background-color: #d2d2d2;
+  border-radius: 3;
+  padding: 5 3;
+}
+
+.buttonText {
+  font-size: 12;
 }

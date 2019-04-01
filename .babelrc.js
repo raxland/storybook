@@ -1,6 +1,6 @@
 module.exports = {
   presets: [
-    ['@babel/preset-env', { shippedProposals: true, useBuiltIns: 'usage' }],
+    ['@babel/preset-env', { shippedProposals: true }],
     '@babel/preset-react',
     '@babel/preset-flow',
   ],
@@ -14,7 +14,7 @@ module.exports = {
   ],
   env: {
     test: {
-      presets: [['@babel/preset-env', { shippedProposals: true, useBuiltIns: 'usage' }]],
+      presets: [['@babel/preset-env', { shippedProposals: true }]],
       plugins: ['babel-plugin-require-context-hook', 'babel-plugin-dynamic-import-node'],
     },
   },
@@ -26,14 +26,14 @@ module.exports = {
     {
       test: './examples/rax-kitchen-sink',
       presets: [
-        ['@babel/preset-env', { shippedProposals: true, useBuiltIns: 'usage' }],
+        ['@babel/preset-env', { shippedProposals: true }],
         ['babel-preset-rax', { development: process.env.BABEL_ENV === 'development' }],
       ],
     },
     {
       test: './lib',
       presets: [
-        ['@babel/preset-env', { shippedProposals: true, useBuiltIns: 'usage' }],
+        ['@babel/preset-env', { shippedProposals: true }],
         '@babel/preset-react',
       ],
       plugins: [

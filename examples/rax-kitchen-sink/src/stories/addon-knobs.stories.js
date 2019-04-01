@@ -5,7 +5,7 @@ import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
 import Button from 'rax-button';
 import Text from 'rax-text';
 
-const stories = storiesOf('Addon|addon-knobs', module);
+const stories = storiesOf('Addon|Knobs', module);
 
 // Add the `withKnobs` decorator to add knobs support to your stories.
 // You can also configure `withKnobs` as a global decorator.

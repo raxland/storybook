@@ -3,13 +3,10 @@ import { createElement, render } from 'rax';
 import { document } from 'global';
 import { stripIndents } from 'common-tags';
 
-const rootElement = document ? document.getElementById('root') : null;
-
 export default function renderMain({
   storyFn,
   selectedKind,
   selectedStory,
-  showMain,
   showError,
   // forceRender,
 }) {
@@ -26,7 +23,6 @@ export default function renderMain({
     return;
   }
 
-  showMain();
-
-  render(element, rootElement);
+  // render(element, rootElement);
+  return element;
 }
